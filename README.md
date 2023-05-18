@@ -6,4 +6,4 @@ Furthermore, the optional goal of displaying information about the selected coun
 
 Finally, version control (Git) was utilized throughout the development process, with at least two commits made to track changes and progress.
 
-![image](https://github.com/KondziuX/contact-form-exercise/assets/61789511/7a3787fa-9a86-4bd2-b4cf-5e81974c9c84)
+![image](https://github.com/KondziuX/contact-form-exercise/assets/61789511/ec355223-df9c-46d9-91fd-b8716594678d)
