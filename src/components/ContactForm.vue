@@ -42,15 +42,27 @@
         <!-- Begin of information about the selected country -->
         <div v-if="selectedCountry" style="display: flex">
           <div style="flex: 1">
-            <p>Capital: {{ selectedCountry.capital }}</p>
-            <p>Country Name: {{ selectedCountry.name }}</p>
+            <p>
+              <v-icon>mdi-city</v-icon> Capital: {{ selectedCountry.capital }}
+            </p>
+            <p>
+              <v-icon>mdi-earth</v-icon> Country Name:
+              {{ selectedCountry.name }}
+            </p>
           </div>
           <div style="flex: 1">
-            <p>Population: {{ selectedCountry.population }}</p>
-            <p>Region: {{ selectedCountry.region }}</p>
+            <p>
+              <v-icon>mdi-account-group</v-icon> Population:
+              {{ selectedCountry.population }}
+            </p>
+            <p>
+              <v-icon>mdi-map-marker</v-icon> Region:
+              {{ selectedCountry.region }}
+            </p>
           </div>
         </div>
-
+        
+        
         <!-- End of information about the selected country -->
         <v-checkbox
           v-model="checkbox"
